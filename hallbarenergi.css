@@ -5,6 +5,8 @@
 
 body {
   margin: 0;
+  background-color: whitesmoke;
+  
 }
 
 /* Style the header */
@@ -38,16 +40,23 @@ nav a:hover {
 .column {
     float:left;
    padding: 10px;
-   background-color: rgb(229, 243, 32); 
+   background-color: whitesmoke; 
 }
  
 .column.side {
   width: 20%;
+  border: 3px;
+  border-style: solid;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
 
 }
 
 .column.middle {
+    font-size: 20px;
     width: 60%;
+    background-color: whitesmoke;
 
 }
 
@@ -63,8 +72,9 @@ nav a:hover {
   .column.side, .column.middle {
     width: 100%;
   } }
-  footer {
-    background-color: black;
-    text-align: center;
-    padding: 10px;
-  }
+
+    footer  {
+      background-color: black;
+      text-align: center;
+      padding: 10px;
+    }
